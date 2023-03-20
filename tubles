@@ -1,0 +1,3 @@
+sam=(5,7)
+print(sam)
+print(sam[0])
