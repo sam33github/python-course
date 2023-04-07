@@ -1,8 +1,8 @@
-a=4
+a=3
 b=7
 c=8
 
-if a>b and a>c:
+if a>b and a>b:
     print(str(a) + " is greater than  "+str(b)+"and "+str(6))
  
 elif a==b and a==c:
