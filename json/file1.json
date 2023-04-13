@@ -1,0 +1,40 @@
+{
+   "emp_details": [
+      {
+         "name": "sakthi",
+         "age": "30",
+         "work": "Software engineer",
+         "duration": "8 hours"
+      },
+      {
+         "name": "Sam",
+         "age": "Manager",
+         "work": "Manager",
+         "duration": "6 hours"
+      },
+      {
+         "name": "Arun",
+         "age": "23",
+         "work": "Manager",
+         "duration": "6 hours"
+      },
+      {
+         "name": "Siva",
+         "age": "28",
+         "work": "engineer",
+         "duration": "8 hours"
+      },
+      {
+         "name": "Senthil",
+         "age": "labour",
+         "work": "7 hours",
+         "duration": "9 hours"
+      },
+      {
+         "name": "Saranya",
+         "age": "23",
+         "work": "Manager",
+         "duration": "7 hours"
+      }
+   ]
+}
