@@ -11,7 +11,7 @@ while True:
         reg.reg_details()
     elif choice=="2":
         print("you have chose View Employee!!")
-        reg.view_emp()
+        reg.view_details()
     else:
         print("Invalid choice")
     

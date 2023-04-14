@@ -1,4 +1,5 @@
 import json
+from tabulate import tabulate
 
 def reg_details():
     name=input("enter a name : ")
@@ -19,15 +20,25 @@ def reg_details():
         print("Employee registered successfull!!")
 
 
-def view_emp():
+def view_details():
     with open("file1.json","r")as f :
         data=json.load(f)
-    print("s.no\tname\t\tage\twork\t\tduration ")
+    print("s_no\tname,\tage\twork\t\tduration")
     s_no=1
-    c_manager=0
-    for emp in data['emp_details']:
-        if emp["work"]=="Manager":
-            c_manager+=1
-        print(f"{str(s_no)}\t{emp['name']}\t\t{emp['age']}\t{emp['work']}\t\t{emp['duration']}")
-        s_no+=1
-    print("No. of managers : " + str(c_manager))
+    employees=[]
+    
+    for emp in data["emp_details"]:
+       temp_list=[s_no,emp['name'],emp['age'],emp['work']]
+       employees.append(temp_list)
+       s_no+=1
+       print(employees)
+       print(tabulate(employees,headers=["s_no","name","age","work"]))      
+        
+        
+        
+        
+    
+    
+
+    
+    
