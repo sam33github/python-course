@@ -1,5 +1,6 @@
 import reg
 
+
 print("Welcome to Employee manager !!")
 
 while True:
@@ -12,6 +13,9 @@ while True:
     elif choice=="2":
         print("you have chose View Employee!!")
         reg.view_details()
+    elif choice=="3":
+        print("you have choose update employeee!!")
+        reg.update_details()
     else:
         print("Invalid choice")
     
