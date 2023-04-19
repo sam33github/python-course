@@ -79,8 +79,19 @@ def update_details():
                 
                 
                 
-                
-
+def delete_details():
+     view_details()
+     with open("file1.json","r")as f :
+        data=json.load(f)
+        sno=1
+        choice=input("choose a delete numbers in given no: ")
+     for emp in data ["emp_details"]:
+         if str(sno)==choice:
+            data["emp_details"].remove(emp)
+            print("employee details removed successfully!!")
+         sno+=1                    
+     with open("file1.json","w")as f :
+        json.dump(data,f,indent=3)      
         
 
 

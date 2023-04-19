@@ -16,12 +16,16 @@ while True:
     elif choice=="3":
         print("you have choose update employeee!!")
         reg.update_details()
+    elif choice=="4":
+        print('you have choose delete employee!!')   
+        reg.delete_details()
     else:
+        
         print("Invalid choice")
     
     close=input('Do you want to continue (y/n)? :')
     if close=="n":
-        break
+        break                 
     elif close=="y":
         continue
     else:
