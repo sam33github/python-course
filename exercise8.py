@@ -1,4 +1,4 @@
-user=int(input("enter a value :"))
+user=int(input("enter a value:"))
 
 if user<=100:
     print(str(user)+"value is lesser than equal to "+str(100))
