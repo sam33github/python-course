@@ -10,5 +10,5 @@ elif user<=2000:
     print(str(user)+"value is lesser than equal to "+str(1000))
 
 else:
-    print("value is greater than 2000 ") 
+    print("value is greater than 2000") 
        
